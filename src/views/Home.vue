@@ -31,7 +31,7 @@ export default {
       welcomeScreen: {
         title: "Welcome!",
         blogPost:
-          "Weekly blog articles with all things programming including HTML, CSS, JavaScript and more. Register today to never miss a post!",
+          "Alpha Club is community of finance fanatics consisting of highly dedicated indidviduals to help everyone from those with no background in finance to those coming from finance looking to switch focus within the industry.",
         welcomeScreen: true,
         photo: "coding",
       },
