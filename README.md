@@ -1,4 +1,4 @@
-# fireblogs
+# Alph Club Website
 
 ## Project setup
 ```
