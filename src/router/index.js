@@ -77,8 +77,8 @@ const routes = [
     component: Admin,
     meta: {
       title: "Admin",
-      requiresAuth: true,
-      requiresAdmin: true,
+      requiresAuth: false,
+      requiresAdmin: false,
     },
   },
   {

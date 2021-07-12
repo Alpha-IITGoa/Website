@@ -12,8 +12,8 @@
     </div>
     <div v-if="!user" class="updates">
       <div class="container">
-        <h2>never miss a post. Register for your free account today!</h2>
-        <router-link class="router-button" to="#"> Register for FireBlogs <Arrow class="arrow arrow-light" /> </router-link>
+        <h2>Never miss a post. Register for your free account today!</h2>
+        <router-link class="router-button" to="#"> Register for Alpha Club <Arrow class="arrow arrow-light" /> </router-link>
       </div>
     </div>
   </div>
