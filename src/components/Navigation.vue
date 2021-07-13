@@ -3,7 +3,7 @@
     <nav class="container">
       <div class="branding">
         <router-link class="header" :to="{ name: 'Home' }"
-          >Alpha Club</router-link
+          > <img src="../assets/logo.jpg" width="30px"> Alpha Club</router-link
         >
       </div>
       <div class="nav-links">
@@ -148,6 +148,11 @@ header {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   z-index: 99;
+  position: fixed;
+  left:0;           /* top left corner should start at leftmost spot */
+  top:0;            /* top left corner should start at topmost spot */
+  width:100vw;      /* take up the full browser width */
+  z-index:200; 
 
   .link {
     font-weight: 500;

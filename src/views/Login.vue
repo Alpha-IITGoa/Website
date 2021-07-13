@@ -5,7 +5,7 @@
         Don't have an account?
         <router-link class="router-link" :to="{ name: 'Register' }">Register</router-link>
       </p>
-      <h2>Login to FireBlogs</h2>
+      <h2>Login to Alphha Club</h2>
       <div class="inputs">
         <div class="input">
           <input type="text" placeholder="Email" v-model="email" />
@@ -171,7 +171,7 @@ export default {
     display: none;
     flex: 2;
     background-size: cover;
-    background-image: url("../assets/background.png");
+    background-image: url("../assets/background.jpg");
     width: 100%;
     height: 100%;
     @media (min-width: 900px) {
