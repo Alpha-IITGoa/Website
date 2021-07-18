@@ -38,6 +38,7 @@ export default {
 <style lang="scss" scoped>
 .admin {
   .container {
+    margin-top: 75px;
     max-width: 1000px;
     padding: 60px 25px;
 
