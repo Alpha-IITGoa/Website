@@ -12,7 +12,7 @@
               <a href="#"><twitter class="svg-icon"/> </a>
             </li>
             <li>
-              <a href="#"><instagram class="svg-icon"/> </a>
+              <a href="https://www.instagram.com/alpha_iitgoa/"><instagram class="svg-icon"/> </a>
             </li>
             <li>
               <a href="#"><linkedin class="svg-icon"/> </a>
