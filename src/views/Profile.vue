@@ -97,6 +97,7 @@ export default {
       margin-bottom: 16px;
       font-weight: 300;
       font-size: 32px;
+      margin-top: 75px;
     }
 
     .profile-info {
