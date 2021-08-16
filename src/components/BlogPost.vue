@@ -43,8 +43,8 @@ export default {
   flex-direction: column;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   @media (min-width: 700px) {
-    min-height: 650px;
-    max-height: 650px;
+    min-height: 300px;
+    max-height: 400px;
     flex-direction: row;
   }
 
@@ -72,6 +72,7 @@ export default {
       h2 {
         font-size: 32px;
         font-weight: 300;
+        color: #303030;
         text-transform: uppercase;
         margin-bottom: 24px;
         @media (min-width: 700px) {
@@ -83,6 +84,7 @@ export default {
         font-size: 15px;
         font-weight: 300;
         line-height: 1.7;
+        color: #303030;
       }
 
       .content-preview {
@@ -147,7 +149,7 @@ export default {
 
 .no-user:first-child {
   .blog-content {
-    background-color: #303030;
+    // background-color: #ebe3e3;
     color: #fff;
   }
 }

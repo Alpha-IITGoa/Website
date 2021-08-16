@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <BlogPost v-if="!user" :post="welcomeScreen" />
+    <!-- <BlogPost v-if="!user" :post="welcomeScreen" /> -->
+    <landing/>
     <BlogPost :post="post" v-for="(post, index) in blogPostsFeed" :key="index" />
     <div class="blog-card-wrap">
       <div class="container">
@@ -23,9 +24,10 @@
 import BlogPost from "../components/BlogPost";
 import BlogCard from "../components/BlogCard";
 import Arrow from "../assets/Icons/arrow-right-light.svg";
+import landing from"../components/landing.vue";
 export default {
   name: "Home",
-  components: { BlogPost, BlogCard, Arrow },
+  components: { BlogPost, BlogCard, Arrow, landing },
   data() {
     return {
       welcomeScreen: {
